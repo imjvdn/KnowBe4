@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35720f2a-3987-42df-9340-2485cd9e5e1a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AccountDetails/get_account_details.py" beforeDir="false" afterPath="$PROJECT_DIR$/AccountDetails/get_account_details.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhishingDetails/get_all_phishing_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/PhishingDetails/get_all_phishing_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrainingDetails/get_all_training_campaigns.py" beforeDir="false" afterPath="$PROJECT_DIR$/TrainingDetails/get_all_training_campaigns.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrainingDetails/get_specific_training_campaign.py" beforeDir="false" afterPath="$PROJECT_DIR$/TrainingDetails/get_specific_training_campaign.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDetails/get_all_users.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserDetails/get_all_users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDetails/get_specific_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserDetails/get_specific_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDetails/get_users_in_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserDetails/get_users_in_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,7 @@
       <workItem from="1719539650342" duration="66000" />
       <workItem from="1719766274747" duration="16000" />
       <workItem from="1719766346243" duration="4520000" />
-      <workItem from="1719791363997" duration="1005000" />
+      <workItem from="1719791363997" duration="1651000" />
     </task>
     <servers />
   </component>

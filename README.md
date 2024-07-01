@@ -29,11 +29,11 @@ This repository contains a collection of Python scripts developed to interact wi
 
 ## Usage
 
+The results are saved in CSV format to the Downloads folder. For scripts that require specific user or group IDs, the script will prompt the user for this information.
+
+Additionally, the same functionality is available in the Ruby scripts found in this repository.
+
 Each script can be executed from the command line. For example:
 
 ```bash
 python get_account_details.py
-
-The results are saved in CSV format to the Downloads folder. For scripts that require specific user or group IDs, the script will prompt the user for this information.
-
-Additionally, the same functionality is available in the original Ruby scripts found in this repository.
