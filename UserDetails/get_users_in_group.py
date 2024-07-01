@@ -1,9 +1,20 @@
+# Script: get_users_in_group.py
+# Developer: Jadan Morrow
+# Description:
+# This script fetches all users who are members of a specific group from the KnowBe4 API using the group_id and saves the data to a CSV file.
+#
+# Use Case:
+# This script is useful for obtaining a list of users in a specific group, which can assist in group-based reporting, managing group-specific training, or monitoring group-specific performance and compliance.
+#
+# API Endpoint: /v1/groups/{group_id}/members
+# Command to run: python get_users_in_group.py
+
 import requests
 import csv
 import os
 
 # Constants
-API_TOKEN = 'YOUR_API_KEY'
+API_TOKEN = 'eyJhbGciOiJIUzUxMiJ9.eyJzaXRlIjoidHJhaW5pbmcua25vd2JlNC5jb20iLCJ1dWlkIjoiZDExYjQ1NWYtMDliMi00ZDA3LTgyODAtMDY4YjY5ZmM4MThkIiwic2NvcGVzIjpbImVsdmlzIl0sImFpZCI6NDgwOTN9.6J51ajPgsncY2ruXBjI--JzM-Z7P8VlS3bkCtNFboJsZMjbTvk1sta_FptHGJ5OrXzL17sVY95xT5wji26Jy0w'
 BASE_URL = 'https://us.api.knowbe4.com/v1/groups'
 OUTPUT_PATH = os.path.expanduser('~/Downloads/group_members.csv')
 

@@ -1,3 +1,14 @@
+# Script: get_all_training_campaigns.py
+# Developer: Jadan Morrow
+# Description:
+# This script fetches all training campaigns from the KnowBe4 API and saves the data to a CSV file.
+#
+# Use Case:
+# This script is useful for obtaining a complete list of all training campaigns, which can help in analyzing training effectiveness, planning future training, and ensuring compliance with training requirements.
+#
+# API Endpoint: /v1/training/campaigns
+# Command to run: python get_all_training_campaigns.py
+
 import requests
 import csv
 import os

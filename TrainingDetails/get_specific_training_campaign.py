@@ -1,3 +1,14 @@
+# Script: get_specific_training_campaign.py
+# Developer: Jadan Morrow
+# Description:
+# This script fetches a specific training campaign from the KnowBe4 API using the campaign_id and saves the data to a CSV file.
+#
+# Use Case:
+# This script is useful for retrieving detailed information about a specific training campaign, which can help in analyzing its effectiveness, managing enrollments, and ensuring compliance with training requirements.
+#
+# API Endpoint: /v1/training/campaigns/{campaign_id}
+# Command to run: python get_specific_training_campaign.py
+
 import requests
 import csv
 import os

@@ -1,3 +1,15 @@
+# Script: get_account_details.py
+# Developer: Jadan Morrow
+# Description:
+# This script fetches account details from the KnowBe4 API and saves the data to a CSV file.
+#
+# Use Case:
+# This script is useful for retrieving comprehensive details about your KnowBe4 account.
+# This data can be used for auditing, reporting, and managing account-level information effectively.
+#
+# API Endpoint: /v1/account?full=true
+# Command to run: python get_account_details.py
+
 import requests
 import csv
 import os

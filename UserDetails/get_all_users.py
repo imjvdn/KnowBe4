@@ -1,9 +1,21 @@
+# Script: get_all_users.py
+# Developer: Jadan Morrow
+# Description:
+# This script fetches all users from the KnowBe4 API and saves the data to a CSV file.
+#
+# Use Case:
+# This script is useful for getting a comprehensive list of all users in your KnowBe4 account.
+# This data can be used for auditing, reporting, and managing user information effectively.
+#
+# API Endpoint: /v1/users
+# Command to run: python get_all_users.py
+
 import requests
 import csv
 import os
 
 # Constants
-API_TOKEN = 'YOUR_API_KEY'
+API_TOKEN = 'eyJhbGciOiJIUzUxMiJ9.eyJzaXRlIjoidHJhaW5pbmcua25vd2JlNC5jb20iLCJ1dWlkIjoiZDExYjQ1NWYtMDliMi00ZDA3LTgyODAtMDY4YjY5ZmM4MThkIiwic2NvcGVzIjpbImVsdmlzIl0sImFpZCI6NDgwOTN9.6J51ajPgsncY2ruXBjI--JzM-Z7P8VlS3bkCtNFboJsZMjbTvk1sta_FptHGJ5OrXzL17sVY95xT5wji26Jy0w'
 BASE_URL = 'https://us.api.knowbe4.com/v1/users'
 OUTPUT_PATH = os.path.expanduser('~/Downloads/all_users.csv')
 

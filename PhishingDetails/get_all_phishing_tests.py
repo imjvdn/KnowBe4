@@ -1,3 +1,12 @@
+# get_all_phishing_tests.py
+# Developer: Jadan Morrow
+#
+# This script retrieves a list of all phishing security tests in your KnowBe4 account.
+# It leverages the /v1/phishing/security_tests API endpoint.
+# Use case: Useful for getting a comprehensive overview of all phishing tests conducted in the account.
+# Run the script using: python get_all_phishing_tests.py
+# The output will be saved to the downloads folder as phishing_security_tests.csv
+
 import requests
 import csv
 import os
