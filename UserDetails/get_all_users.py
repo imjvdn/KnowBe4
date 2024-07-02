@@ -15,7 +15,7 @@ import csv
 import os
 
 # Constants
-API_TOKEN = 'eyJhbGciOiJIUzUxMiJ9.eyJzaXRlIjoidHJhaW5pbmcua25vd2JlNC5jb20iLCJ1dWlkIjoiZDExYjQ1NWYtMDliMi00ZDA3LTgyODAtMDY4YjY5ZmM4MThkIiwic2NvcGVzIjpbImVsdmlzIl0sImFpZCI6NDgwOTN9.6J51ajPgsncY2ruXBjI--JzM-Z7P8VlS3bkCtNFboJsZMjbTvk1sta_FptHGJ5OrXzL17sVY95xT5wji26Jy0w'
+API_TOKEN = 'YOUR_API_TOKEN'
 BASE_URL = 'https://us.api.knowbe4.com/v1/users'
 OUTPUT_PATH = os.path.expanduser('~/Downloads/all_users.csv')
 
